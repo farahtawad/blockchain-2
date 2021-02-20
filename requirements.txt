@@ -1,0 +1,20 @@
+Dependencies & Requirements 
+
+* Mnemonic Phrase Generation
+
+
+* Blockchain Libraries
+1) In your terminal - pip install bit
+2) In your terminal - pip install web3.py 
+
+* HD Wallet Derive 
+1) Go to https://brew.sh/ and copy the installation command to the terminal. 
+2)Once homebrew is installed, execute:
+brew install php@7.3. 
+3)Then execute the following command: echo "export PATH=/usr/local/opt/php@7.3/bin:$PATH" >> ~/.zshrc
+4)Close terminal, then open new terminal and execute  php -version to verify the installation. You should see v.7.3
+
+* Local Blockchain running in terminal for ETH transaction
+You should have a local blockchain working. Execute node 1 and node 2 in your command line (refer to previous class guide for details)
+
+* MyCrypto installed to make transactions using MyCrypto 
