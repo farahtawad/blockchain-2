@@ -2,7 +2,17 @@
 
 ## Wallet Overview
 
-A wallet is a software that manages keys as well as allows you to send and sign transactions.  This wallet supports BIP44 and non-standard derivation paths for the most popular wallets out there. Using Python coding language, this wallet is a one-stop-shop for Bitcoin and Ethereum transactions. It allows the user to to use the same master key across multiple blockchains, as well as integrating a universal key manager tool with python libraries (Web3.py and Bit). To use the wallet created, you need to install python packages and PHP(specified in requirements.txt)
+A wallet is a software that manages keys as well as allows you to send and sign transactions.  This wallet supports BIP44 and non-standard derivation paths for the most popular wallets out there. Using Python coding language, this wallet is a one-stop-shop for Bitcoin and Ethereum transactions. It allows the user to to use the same master key across multiple blockchains, as well as integrating a universal key manager tool with python libraries (Web3.py and Bit). 
+
+## General Dependencies 
+To use the wallet created, you need to install(specified in requirements.txt):
+1) python packages (bit and web3)
+
+2) HD Wallet Derive
+
+3) Local Blockchain to connect to for ETH transacting 
+
+4) MyCrypto Wallet 
 
 
 #### Sample code to send transaction and use wallet 
