@@ -27,5 +27,9 @@ You need coin type (ETH or BTCTEST) , account - call a function for converting d
 
 ### ETH 
 
-`send_tx(ETH,privKeyToAccount(ETH), coins[ETH][0]['privkey']), "9dd2C60aA77E22A41A67883d6754B7Cf15Bc214F", 1000)`
+`send_tx(ETH,privKeyToAccount(ETH), coins[ETH][0]['privkey']), "9dd2C60aA77E22A41A67883d6754B7Cf15Bc214F", 400)`
 
+
+![txn1](Images/txn1.png)
+
+![txn2](Images/final.png)
